@@ -1,0 +1,27 @@
+Total points: 85.5 Grades: 17.1 Details: 
+Report part1: 10.0 points 
+Report part2: 9.0 points 
+Task: segm datasets.py Score: 4.0 points 
+Task: segm loss.py Score: 0 points Wrong implementation of calc_val_data, calc_val_loss. 
+Task: segm model.py UNET Score: 8 points 
+Task: segm model.py DeepLab ResNet18 Score: 2 points 
+Task: segm model.py DeepLab VGG11 Score: 1.5 points The model should contain only the necessary parts of the backbone. Saving all the parts greatly increases the size of the network. 
+Task: segm model.py DeepLab MobileNet Score: 2 points 
+Task: segm model.py DeepLab ASPP Score: 8 points 
+Task: segm train.py Score: 2 points 
+Task: segm UNet_None_augment=False_aspp=None Score: 0.5 points Accuracy: 0.0935 Task: segm UNet_None_augment=True_aspp=None Score: 0.5 points Accuracy: 0.0923 
+Task: segm DeepLab_ResNet18_augment=True_aspp=False Score: 0.5 points Accuracy: 0.0913 
+Task: segm DeepLab_ResNet18_augment=True_aspp=True Score: 0.5 points Accuracy: 0.094 
+Task: segm DeepLab_VGG11_bn_augment=True_aspp=True Score: 0.5 points Accuracy: 0.0963 
+Task: segm DeepLab_MobileNet_v3_small_augment=True_aspp=True Score: 0.5 points Accuracy: 0.0964
+Task: gans train.py truncation_trick Score: 1 points 
+Task: gans train.py train_step Score: 0 points train_step: GAN is not trainable. train_step: GAN is not trainable. train_step: GAN is not trainable.
+Task: gans loss.py calc_fid Score: 0 points The student version of calc_fid returns a result that is significantly different from the reference implementation.
+Task: gans loss.py calc_is Score: 2 points Task: gans loss.py generator non_saturating Score: 1 points 
+Task: gans loss.py discriminator non_saturating Score: 1 points
+Task: gans loss.py generator hinge Score: 0 points The student version of GANLoss returns a result that is significantly different from the reference implementation. 
+Task: gans loss.py discriminator hinge Score: 0 points The student version of GANLoss returns a result that is significantly different from the reference implementation.
+Task: gans model.py AdaptiveBatchNorm Score: 4 points 
+Task: gans model.py PreActResBlock Score: 6.0 points
+Task: gans model.py Generator Score: 8 points Task: gans model.py Discriminator Score: 8 points
+Task: gans checkpoints provided Score: 3 points Task: gans variants evaluated Score: 2.0 points
